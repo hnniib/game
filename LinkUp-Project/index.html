@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/sokoban.css">
   
 </head>
 <body>
@@ -25,9 +24,7 @@
       <a href="#examples" class="nav-link">Examples</a>
       <a href="#cards" class="nav-link">Flashcards</a>
       <a href="#quiz" class="nav-link">Quiz</a>
-      <a href="game.html" class="nav-link">
-    🎮 Play Game
-</a>
+      <a href="game.html" class="nav-link">🎮 Play Game</a>
     </nav>
     <a class="header-cta" href="#quiz">Start learning <span>→</span></a>
   </header>
@@ -115,88 +112,6 @@
       <p class="flash-instruction">You can also use the arrow buttons to move between cards.</p>
     </section>
 
-<!-- WORD PUSH SOKOBAN GAME -->
-<section class="sokoban-section" id="sokoban">
-
-    <div class="sokoban-container">
-
-        <div class="sokoban-header">
-            <h2>🧩 Word Push!</h2>
-            <p>Push the correct linking word out of the maze!</p>
-        </div>
-
-        <div class="sokoban-game">
-
-            <div class="sokoban-question">
-
-                <div class="sokoban-info">
-                    <span id="sokoLevel">LEVEL 1 / 5</span>
-                    <span id="sokoScore">SOLVED: 0</span>
-                </div>
-
-                <small>COMPLETE THE SENTENCE</small>
-
-                <h3 id="sokoQuestion">
-                    I was tired. ______, I finished my homework.
-                </h3>
-
-                <p>Push the correct answer crate to the EXIT.</p>
-
-            </div>
-
-            <div class="sokoban-board-frame">
-                <div class="sokoban-board" id="sokoBoard"></div>
-            </div>
-
-            <div class="sokoban-controls">
-
-                <div class="sokoban-instructions">
-                    <strong>🎮 How to Play</strong>
-
-                    <p>
-                        Move your character using the joystick.
-                        Push the correct answer crate through
-                        the exit. Avoid pushing the wrong answer!
-                    </p>
-                </div>
-
-                <div>
-                    <div class="soko-joystick" id="sokoJoystick">
-
-                        <button class="soko-up" data-dir="up">▲</button>
-                        <button class="soko-left" data-dir="left">◀</button>
-
-                        <div class="soko-center">✦</div>
-
-                        <button class="soko-right" data-dir="right">▶</button>
-                        <button class="soko-down" data-dir="down">▼</button>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="sokoban-feedback" id="sokoFeedback">
-                Find the correct answer and push it to the exit!
-            </div>
-
-            <div class="sokoban-actions">
-
-                <button id="sokoRestart">
-                    ↻ Restart Level
-                </button>
-
-                <button id="sokoNext" class="primary sokoban-hidden">
-                    Next Level →
-                </button>
-
-            </div>
-
-        </div>
-    </div>
-
-</section>
-
     <section class="quiz-section" id="quiz">
       <div class="section-wrap quiz-layout">
         <div class="quiz-copy"><div class="eyebrow light-eyebrow">READY FOR A CHALLENGE?</div><h2>Show what<br>you <span>know!</span></h2><p>Choose the best linking word to complete each sentence. You’ll get instant feedback and a final score.</p><div class="quiz-perks"><span>✓ 10 questions</span><span>✓ Instant feedback</span><span>✓ Score summary</span></div></div>
@@ -226,10 +141,7 @@
     <small>Website ini dibuat untuk memenuhi tugas mata kuliah <strong>[Course Name]</strong>. Created by <strong>[Your Name]</strong> (<strong>[Your Student ID]</strong>).</small>
     <small class="copyright">© 2026 LinkUp Learning. Made for curious minds.</small>
   </footer>
-
   <script src="js/app.js"></script>
-  <script src="js/app.js"></script>
-<script src="js/sokoban.js"></script>
 </body>
 </html>
 
