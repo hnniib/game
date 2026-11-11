@@ -1,0 +1,45 @@
+LINKUP PROJECT — PROMPT DOCUMENTATION
+=====================================
+
+Project:
+A static educational web app about Linking / Transition Words.
+Technology: HTML, CSS, and vanilla JavaScript.
+Visual direction: fun, colourful, friendly, responsive learning app.
+Language: English.
+
+IMPORTANT:
+This document records the prompts used to plan and generate the project. If you make further requests to an AI tool while editing the website, add those prompts below so the record stays accurate.
+
+PROMPT 1 — PROJECT PLANNING
+Create a plan for a static educational website that helps students learn English Linking / Transition Words. The website must use only HTML, CSS, and vanilla JavaScript. Propose a clear learning flow, page sections, interactive features, and a simple folder structure. The site should be suitable for an individual university assignment.
+
+PROMPT 2 — WEBSITE DESIGN
+Design a modern, fun, colourful, and responsive English-learning website called “LinkUp”. Use a friendly learning-app visual style, rounded cards, playful decorative shapes, clear typography, colourful category cards, and a mobile-friendly navigation. Use English for all learning content. Keep the design readable and accessible.
+
+PROMPT 3 — LEARNING MATERIAL
+Prepare beginner-friendly learning material about six common functions of linking / transition words: Addition, Contrast, Cause and Effect, Sequence, Giving Examples, and Conclusion. For each category, explain its purpose, provide several useful linking expressions, and write a natural example sentence. Keep the explanations accurate and easy to understand.
+
+PROMPT 4 — EXAMPLES SECTION
+Create a collection of example sentences that demonstrate how linking words connect ideas. Include examples from all six categories. Highlight the linking expression in each sentence and allow the user to filter examples by category.
+
+PROMPT 5 — FLASHCARDS
+Create an interactive flashcard feature using vanilla JavaScript. Each card should show a linking word on the front and its meaning on the reverse. Add previous and next controls, a card counter, and a progress indicator.
+
+PROMPT 6 — INTERACTIVE QUIZ
+Create a 10-question multiple-choice quiz about linking / transition words. Use clear sentence-completion questions, four answer options per question, instant correctness feedback, a short explanation, a running score, a final result screen, and a restart button. Prevent users from selecting more than one answer for the same question.
+
+PROMPT 7 — INTEGRATION AND QUALITY CHECK
+Integrate the home section, category lessons, filtered examples, flashcards, and quiz into one static website. Ensure all navigation links and controls work. Use semantic HTML, responsive CSS, and vanilla JavaScript. Do not use a database, PHP, Laravel, or a build system. Make the website work by opening index.html in a modern browser.
+
+PROMPT 8 — DEPLOYMENT PREPARATION
+Prepare the project for deployment as a static website on Vercel. Keep index.html at the project root, use relative paths for CSS and JavaScript, and do not require server-side processing. Include a README with clear deployment instructions.
+
+PROMPT 9 — FOOTER AND STUDENT IDENTITY
+Add a footer statement for an academic assignment. Use editable placeholders for the course name, student name, and student ID so the student can replace them with their actual information.
+
+PROMPT 10 — FINAL MANUAL REVIEW CHECKLIST
+Review the website for spelling, layout consistency, mobile responsiveness, working category selection, example filters, flashcard flipping, quiz scoring, quiz restart, and correct relative file paths. List any remaining items that require the student to personalise or verify.
+
+ADDITIONAL PROMPTS USED FOR FUTURE EDITS
+----------------------------------------
+Add any later prompts used to fix bugs, change the design, add content, or revise the website here. Do not list prompts that were not actually used.

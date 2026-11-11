@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn linking and transition words with colorful lessons, flashcards, examples, and quizzes.">
+  <title>LinkUp — Connect Your Ideas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sokoban.css">
+  
+</head>
+<body>
+  <div class="page-bg"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="LinkUp home">
+      <span class="brand-mark">↗</span><span>link<span class="brand-accent">up</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#learn" class="nav-link">Learn</a>
+      <a href="#examples" class="nav-link">Examples</a>
+      <a href="#cards" class="nav-link">Flashcards</a>
+      <a href="#quiz" class="nav-link">Quiz</a>
+      <a href="game.html" class="nav-link">
+    🎮 Play Game
+</a>
+    </nav>
+    <a class="header-cta" href="#quiz">Start learning <span>→</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="sparkle">✦</span> ENGLISH SKILLS, MADE FUN</div>
+        <h1>Make your ideas<br> <span class="gradient-text">flow together.</span></h1>
+        <p class="hero-lead">Discover the little words that make a big difference. Learn linking words, connect your thoughts, and write with confidence!</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#learn">Explore lessons <span>→</span></a>
+          <a class="btn btn-soft" href="#quiz">Take a quick quiz <span>✦</span></a>
+        </div>
+        <div class="hero-proof"><div class="avatar-stack"><i>✍️</i><i>📚</i><i>🚀</i></div><span><strong>Learn at your pace</strong><br>Short lessons · Fun practice</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative illustration about connecting ideas">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-note note-one">✨ moreover</div>
+        <div class="floating-note note-two">💡 however</div>
+        <div class="floating-note note-three">🎯 therefore</div>
+        <div class="hero-card">
+          <div class="mini-label">YOUR WRITING JOURNEY</div>
+          <div class="connect-graphic"><span class="bubble bubble-a">IDEA</span><span class="connector">↝</span><span class="bubble bubble-b">IDEA</span></div>
+          <div class="hero-card-bottom"><span>Connect your thoughts</span><span class="tiny-stars">✦ ✦ ✦</span></div>
+        </div>
+        <span class="art-star star-a">✳</span><span class="art-star star-b">✦</span><span class="art-dot dot-a"></span><span class="art-dot dot-b"></span>
+      </div>
+    </section>
+
+    <section class="stats section-wrap" aria-label="What you can learn">
+      <div class="stat-item"><span class="stat-icon purple">✦</span><div><strong>6</strong><small>Useful categories</small></div></div>
+      <div class="stat-item"><span class="stat-icon yellow">⚡</span><div><strong>20+</strong><small>Example sentences</small></div></div>
+      <div class="stat-item"><span class="stat-icon mint">✓</span><div><strong>10</strong><small>Quiz questions</small></div></div>
+      <div class="stat-item"><span class="stat-icon pink">♡</span><div><strong>100%</strong><small>Self-paced learning</small></div></div>
+    </section>
+
+    <section class="section-wrap section-block" id="learn">
+      <div class="section-heading">
+        <div><div class="eyebrow">THE BUILDING BLOCKS</div><h2>Choose your <span class="gradient-text">connection.</span></h2><p>Different linking words have different jobs. Pick a category to explore!</p></div>
+        <span class="heading-doodle">✳</span>
+      </div>
+      <div class="category-grid" id="categoryGrid">
+        <button class="category-card cat-purple" data-category="addition"><span class="category-emoji">➕</span><span class="category-title">Addition</span><span class="category-desc">Add another idea</span><span class="category-words">also · moreover · furthermore</span><span class="card-arrow">↗</span></button>
+        <button class="category-card cat-orange" data-category="contrast"><span class="category-emoji">⚖️</span><span class="category-title">Contrast</span><span class="category-desc">Show a difference</span><span class="category-words">however · although · whereas</span><span class="card-arrow">↗</span></button>
+        <button class="category-card cat-blue" data-category="cause"><span class="category-emoji">🔗</span><span class="category-title">Cause & Effect</span><span class="category-desc">Explain a result</span><span class="category-words">therefore · consequently</span><span class="card-arrow">↗</span></button>
+        <button class="category-card cat-green" data-category="sequence"><span class="category-emoji">🪜</span><span class="category-title">Sequence</span><span class="category-desc">Put ideas in order</span><span class="category-words">firstly · next · finally</span><span class="card-arrow">↗</span></button>
+        <button class="category-card cat-pink" data-category="example"><span class="category-emoji">🔍</span><span class="category-title">Giving Examples</span><span class="category-desc">Make ideas clearer</span><span class="category-words">for example · such as</span><span class="card-arrow">↗</span></button>
+        <button class="category-card cat-yellow" data-category="conclusion"><span class="category-emoji">🏁</span><span class="category-title">Conclusion</span><span class="category-desc">Wrap up your point</span><span class="category-words">in conclusion · overall</span><span class="card-arrow">↗</span></button>
+      </div>
+      <div class="lesson-panel" id="lessonPanel" aria-live="polite">
+        <div class="lesson-panel-top"><span class="lesson-chip">QUICK LESSON</span><span class="lesson-number" id="lessonNumber">01 / 06</span></div>
+        <div class="lesson-content"><div><h3 id="lessonTitle">Addition</h3><p id="lessonDescription">Use addition linking words when you want to add information or another supporting point.</p><div class="word-pills" id="lessonWords"></div></div><div class="lesson-example"><span class="example-label">EXAMPLE IN CONTEXT</span><p id="lessonExample">The library is quiet. <mark>Furthermore</mark>, it has many useful resources.</p><small id="lessonTip">Tip: “Furthermore” adds a stronger supporting point.</small></div></div>
+      </div>
+    </section>
+
+    <section class="examples-section" id="examples">
+      <div class="section-wrap section-block">
+        <div class="section-heading">
+          <div><div class="eyebrow">SEE IT IN ACTION</div><h2>Words in the <span class="gradient-text">wild.</span></h2><p>Notice how a linking word changes the relationship between two ideas.</p></div>
+          <span class="heading-doodle yellow-doodle">✦</span>
+        </div>
+        <div class="example-toolbar"><div class="filter-label">Filter examples</div><div class="filter-buttons" id="exampleFilters"><button class="filter-btn selected" data-filter="all">All</button><button class="filter-btn" data-filter="addition">Addition</button><button class="filter-btn" data-filter="contrast">Contrast</button><button class="filter-btn" data-filter="cause">Cause & effect</button><button class="filter-btn" data-filter="sequence">Sequence</button><button class="filter-btn" data-filter="example">Examples</button><button class="filter-btn" data-filter="conclusion">Conclusion</button></div></div>
+        <div class="example-list" id="exampleList"></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block flash-section" id="cards">
+      <div class="section-heading">
+        <div><div class="eyebrow">A LITTLE PRACTICE</div><h2>Flip it. <span class="gradient-text">Learn it.</span></h2><p>Test your memory with these quick flashcards.</p></div>
+        <div class="flash-counter" id="flashCounter">CARD 1 OF 8</div>
+      </div>
+      <div class="flashcard-area">
+        <button class="round-arrow" id="prevCard" aria-label="Previous flashcard">←</button>
+        <button class="flashcard" id="flashcard" aria-label="Flip flashcard">
+          <span class="flash-topline" id="flashCategory">ADDITION</span>
+          <span class="flash-word" id="flashWord">Moreover</span>
+          <span class="flash-hint" id="flashHint">Tap to reveal the meaning</span>
+          <span class="flash-meaning" id="flashMeaning">In addition; used to add information.</span>
+          <span class="flip-indicator">↻ &nbsp; CLICK TO FLIP</span>
+        </button>
+        <button class="round-arrow" id="nextCard" aria-label="Next flashcard">→</button>
+      </div>
+      <div class="flash-progress"><span id="flashProgress"></span></div>
+      <p class="flash-instruction">You can also use the arrow buttons to move between cards.</p>
+    </section>
+
+<!-- WORD PUSH SOKOBAN GAME -->
+<section class="sokoban-section" id="sokoban">
+
+    <div class="sokoban-container">
+
+        <div class="sokoban-header">
+            <h2>🧩 Word Push!</h2>
+            <p>Push the correct linking word out of the maze!</p>
+        </div>
+
+        <div class="sokoban-game">
+
+            <div class="sokoban-question">
+
+                <div class="sokoban-info">
+                    <span id="sokoLevel">LEVEL 1 / 5</span>
+                    <span id="sokoScore">SOLVED: 0</span>
+                </div>
+
+                <small>COMPLETE THE SENTENCE</small>
+
+                <h3 id="sokoQuestion">
+                    I was tired. ______, I finished my homework.
+                </h3>
+
+                <p>Push the correct answer crate to the EXIT.</p>
+
+            </div>
+
+            <div class="sokoban-board-frame">
+                <div class="sokoban-board" id="sokoBoard"></div>
+            </div>
+
+            <div class="sokoban-controls">
+
+                <div class="sokoban-instructions">
+                    <strong>🎮 How to Play</strong>
+
+                    <p>
+                        Move your character using the joystick.
+                        Push the correct answer crate through
+                        the exit. Avoid pushing the wrong answer!
+                    </p>
+                </div>
+
+                <div>
+                    <div class="soko-joystick" id="sokoJoystick">
+
+                        <button class="soko-up" data-dir="up">▲</button>
+                        <button class="soko-left" data-dir="left">◀</button>
+
+                        <div class="soko-center">✦</div>
+
+                        <button class="soko-right" data-dir="right">▶</button>
+                        <button class="soko-down" data-dir="down">▼</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sokoban-feedback" id="sokoFeedback">
+                Find the correct answer and push it to the exit!
+            </div>
+
+            <div class="sokoban-actions">
+
+                <button id="sokoRestart">
+                    ↻ Restart Level
+                </button>
+
+                <button id="sokoNext" class="primary sokoban-hidden">
+                    Next Level →
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+    <section class="quiz-section" id="quiz">
+      <div class="section-wrap quiz-layout">
+        <div class="quiz-copy"><div class="eyebrow light-eyebrow">READY FOR A CHALLENGE?</div><h2>Show what<br>you <span>know!</span></h2><p>Choose the best linking word to complete each sentence. You’ll get instant feedback and a final score.</p><div class="quiz-perks"><span>✓ 10 questions</span><span>✓ Instant feedback</span><span>✓ Score summary</span></div></div>
+        <div class="quiz-box" id="quizBox">
+          <div class="quiz-top"><span class="quiz-tag">QUICK QUIZ</span><span id="quizProgressText">QUESTION 1 / 10</span></div>
+          <div class="quiz-progress"><span id="quizProgressBar"></span></div>
+          <div id="quizQuestionArea">
+            <h3 id="questionText">I was tired. ______, I finished my homework.</h3>
+            <div class="answer-options" id="answerOptions"></div>
+            <div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div>
+            <button class="btn btn-primary quiz-next" id="nextQuestion" disabled>Check answer first</button>
+          </div>
+          <div class="quiz-result hidden" id="quizResult"><div class="result-emoji" id="resultEmoji">🎉</div><h3 id="resultTitle">Great work!</h3><p id="resultText">You completed the quiz.</p><div class="score-circle"><strong id="finalScore">0/10</strong><small>YOUR SCORE</small></div><button class="btn btn-primary" id="restartQuiz">Try again ↻</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap final-cta">
+      <div class="cta-confetti">✦　✳　✦</div><div><div class="eyebrow">KEEP THE MOMENTUM</div><h2>One word can connect<br><span class="gradient-text">a world of ideas.</span></h2><p>Keep practicing and make every sentence count.</p></div><a class="btn btn-primary" href="#learn">Explore lessons again ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">↗</span><span>link<span class="brand-accent">up</span></span></a>
+    <p>Connect your ideas. Make your writing flow.</p>
+    <div class="footer-line"></div>
+    <small>Website ini dibuat untuk memenuhi tugas mata kuliah <strong>[Course Name]</strong>. Created by <strong>[Your Name]</strong> (<strong>[Your Student ID]</strong>).</small>
+    <small class="copyright">© 2026 LinkUp Learning. Made for curious minds.</small>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/app.js"></script>
+<script src="js/sokoban.js"></script>
+</body>
+</html>
+
+<!-- buatkan dihalaman berbeda aja jangan disamakan didashboard jadi halaman khusus untuk game -->
